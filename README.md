@@ -21,9 +21,9 @@ Mimic\
 
 then in your configuration.yaml add the following lines.
 
-'tts:
+`tts:
   - platform: mimic
-    target: ap'
+    target: ap`
     
 If you already have an entry to tts: then just add
 '   - platform: mimic
