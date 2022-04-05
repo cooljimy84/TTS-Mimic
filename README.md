@@ -1,4 +1,4 @@
-# TTS-Mimic integration
+# TTS-Mimic Home Assistant integration
 Mimic1 integration for Home assistant.
 
 
@@ -21,13 +21,17 @@ Mimic\
 
 then in your configuration.yaml add the following lines.
 
-`tts:
-  - platform: mimic
-    target: ap`
-    
+```
+tts:
+   - platform: mimic
+     target: ap
+```
+
 If you already have an entry to tts: then just add
-'   - platform: mimic
-      target: ap'
+```
+   - platform: mimic
+     target: ap
+```
 
 restart Home Assistant
 
