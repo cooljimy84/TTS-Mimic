@@ -16,10 +16,6 @@ apt-get install mimic
 ```
 
 Copy the Mimic folder (with the files inside it) to your custom_component config folder in Home Assisant.
-Mimic\
-      tts.py
-      manifest.json
-      __init__.py
 
 then in your configuration.yaml add the following lines.
 
